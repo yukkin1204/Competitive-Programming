@@ -1,11 +1,10 @@
 # Practical Computing
-import copy
-
+# パスカルの三角形を表示する問題
 N = int(input())
 m = []
 
 for i  in range(N):
-    l = copy.copy(m)
+    l = m
     m = []
     for j in range(i + 1):
         if j == 0 or j == i:

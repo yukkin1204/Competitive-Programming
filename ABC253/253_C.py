@@ -1,4 +1,6 @@
 # Max - Min Query
+# heapqを利用する問題
+# heapqは最小値をO(1)で取得できる
 import heapq
 from sys import exit
 

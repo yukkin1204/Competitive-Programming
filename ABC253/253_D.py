@@ -1,4 +1,5 @@
 # FizzBuzz Sum Hard
+# 集合の基礎問題
 import math
 
 N, A, B = map(int, input().split())
@@ -8,7 +9,7 @@ A_end = A * q_A
 q_B = N // B
 B_end = B * q_B
 
-C = A * B // math.gcd(A, B)
+C = A * B // math.gcd(A, B) #最小公倍数
 q_C = N // C
 C_end = C * q_C
 
