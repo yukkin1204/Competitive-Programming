@@ -2,23 +2,18 @@
 # 木の直径+1が答えである
 # 木の直径は最短距離計算2回で求めることができる
 # 最大距離計算はBFSで行う
-from heapq import heappush, heappop
-
 def bfs(s, g):
     INFTY = 2 ** 31 - 1
-    check = [False] * N
     dist = [INFTY] * N
     dist[s] = 0
-    q = [(0, s)]
+    que = [s]
 
-    while q:
-        node = heappop(q)[1]
-        if check[node]: continue
-        check[node] = True
-        for i in g[node]:
-            if check[i]: continue
-            dist[i] = dist[node] + 1
-            heappush(q, [dist[i], i])
+    while que:
+        q = que.pop()
+        for i in g[q]:
+            if dist[i] != INFTY: continue
+            dist[i] = dist[q] + 1
+            que.append(i)
 
     return dist
 
