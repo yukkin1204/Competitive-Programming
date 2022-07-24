@@ -1,4 +1,5 @@
-# Just K (bit全探索)
+# Just K
+# bit全探索
 import string
 
 N, K = map(int, input().split())

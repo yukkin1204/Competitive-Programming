@@ -1,4 +1,5 @@
 # ASCII code
+# アスキーコードと英小文字リストを紐付け
 import string
 N = int(input())
 
