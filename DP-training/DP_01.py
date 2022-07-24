@@ -1,3 +1,4 @@
+# Frog1
 # DPのポイントは、DP配列による値の再利用と漸化式
 N = int(input())
 h = list(map(int,input().split()))
