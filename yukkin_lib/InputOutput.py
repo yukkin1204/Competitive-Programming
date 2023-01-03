@@ -22,6 +22,8 @@ l = [stdin.readline()[:-1] for _ in range(n)]
 print(s)
 # 空白区切りで複数出力
 print(*l)
+# 区切り文字なしで複数出力
+print(*l, sep="")
 # 改行区切りで複数出力
 print(*l, sep = "\n")
 
