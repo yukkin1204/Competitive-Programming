@@ -1,3 +1,4 @@
+# C - String Delimiter
 N = int(input())
 S = list(input())
 flg = False

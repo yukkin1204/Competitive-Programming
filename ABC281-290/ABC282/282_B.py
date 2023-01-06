@@ -1,3 +1,4 @@
+# B - Let's Get a Perfect Score
 from sys import stdin
 N, M = map(int, input().split())
 S = [stdin.readline()[:-1] for _ in range(N)]
