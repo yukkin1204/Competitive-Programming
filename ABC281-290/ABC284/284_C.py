@@ -1,5 +1,4 @@
 # C - Count Connected Components
-# C - Count Connected Components
 # 連結成分の個数を求める問題
 # すでにその頂点に訪れたかをN要素のBool配列で管理する
 # すでに訪れている頂点→何もしない
