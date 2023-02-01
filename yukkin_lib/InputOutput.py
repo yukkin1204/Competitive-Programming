@@ -27,6 +27,12 @@ print(*l, sep="")
 # 改行区切りで複数出力
 print(*l, sep = "\n")
 
+# -----Set-----
+
+S = set()
+for _ in range(n):
+    S.add(input())
+
 # -----List-----
 
 # 1次元リスト
