@@ -1,3 +1,4 @@
+# N進数
 l = list(input())
 
 N = len(l)

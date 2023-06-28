@@ -1,3 +1,4 @@
+# 基本問題
 N, X = map(int, input().split())
 A = set(map(int, input().split()))
 

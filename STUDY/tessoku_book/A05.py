@@ -1,3 +1,4 @@
+# 全探索
 N, K = map(int, input().split())
 
 count = 0
