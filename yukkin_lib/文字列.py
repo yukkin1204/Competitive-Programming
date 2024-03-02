@@ -20,3 +20,7 @@ string.ascii_uppercase
 # 対応表
 translation = str.maketrans("abc", "xyz")
 "abcabc".translate(translation)
+
+# 回文判定
+word = "abcba"
+word == word[::-1]
