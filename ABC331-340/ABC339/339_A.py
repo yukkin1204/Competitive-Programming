@@ -1,3 +1,3 @@
-N = int(input())
-
-print("L" + "o" * N + "ng")
+s = input()
+l = s.split('.')
+print(l[-1])
