@@ -21,6 +21,16 @@ string.ascii_uppercase
 translation = str.maketrans("abc", "xyz")
 "abcabc".translate(translation)
 
+# 数値とアルファベットの変換
+# 0→A
+print(chr(0 + 65))
+# 0→a
+print(chr(0 + 97))
+# A→0
+print(ord('A') - 65)
+# a→0
+print(ord('a') - 97)
+
 # 回文判定
 word = "abcba"
 word == word[::-1]
