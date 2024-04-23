@@ -1,4 +1,4 @@
-# N進数
+# 2進法
 l = list(input())
 
 N = len(l)

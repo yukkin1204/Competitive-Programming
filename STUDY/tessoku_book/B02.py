@@ -1,4 +1,4 @@
-# 基本問題
+# 全探索
 A, B = map(int, input().split())
 
 for i in range(A, B + 1):

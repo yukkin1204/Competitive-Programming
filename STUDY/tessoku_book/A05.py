@@ -3,6 +3,7 @@ N, K = map(int, input().split())
 
 count = 0
 
+# 3重for文の回避
 for i in range(1, N + 1):
     for j in range(1, N + 1):
         k = K - i - j
