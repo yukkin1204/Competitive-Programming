@@ -1,7 +1,8 @@
 from itertools import combinations, permutations
+from sys import stdin
 
 N, H, W = map(int, input().split())
-blocks = [list(map(int, input().split())) for _ in range(N)]
+blocks = [list(map(int, stdin.readline().split())) for _ in range(N)]
 
 def can_place(idx, muki):
     if idx == len(chosen_order):
