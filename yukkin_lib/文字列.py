@@ -14,6 +14,10 @@ string.ascii_uppercase
 # 先頭大文字、その他は小文字
 "Apple".istitle()
 
+# 文字列のカウント
+s = 'abc_aabbcc_abc'
+print(s.count('abc'))
+
 # 文字列変換
 # 基本
 "good".replace("oo", "o")
