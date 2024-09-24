@@ -1,6 +1,5 @@
-from sys import stdin
 N = int(input())
-A = [list(map(int, stdin.readline().split())) for _ in range(N)]
+A = [list(map(int, input().split())) for _ in range(N)]
 
 for row in A:
     l = []
