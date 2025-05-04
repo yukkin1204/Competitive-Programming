@@ -26,6 +26,9 @@ s.count("abc")  # 2
 Counter(s)  # Counter({'a': 4, 'b': 4, 'c': 4})
 
 
+# -----文字列の存在判定-----
+"abc" in "xxabcxx"
+
 # -----文字列変換-----
 # 部分文字列単位の変換
 "good".replace("oo", "o")  # god
